@@ -1,0 +1,9 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+
+com.zachklipp.richtext.markdown
+com.zachklipp.richtext.ui
+com.zachklipp.richtext.ui.printing
+com.zachklipp.richtext.ui.slideshow
+com.zachklipp.richtext.ui.string
+
