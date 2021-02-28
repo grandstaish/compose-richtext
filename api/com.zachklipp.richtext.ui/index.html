@@ -9,14 +9,13 @@
         <meta name="description" content="A collection of Compose libraries for advanced text formatting and alternative display types.">
       
       
-      
         <link rel="canonical" href="http://www.zachklipp.com/compose-richtext/api/com.zachklipp.richtext.ui/">
       
       
         <meta name="author" content="Zach Klippenstein">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.3">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.2">
     
     
       
@@ -24,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.2cb7adb3.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19190aaf.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.f0267088.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.24b84193.min.css">
         
       
     
@@ -352,8 +351,8 @@
 <td><a name="com.zachklipp.richtext.ui/CodeBlockStyle///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>@Immutable()  <br>  <br>data class <a href="-code-block-style/">CodeBlockStyle</a>(<strong>textStyle</strong>: TextStyle?, <strong>background</strong>: Color?, <strong>padding</strong>: TextUnit?)  <br>More info  <br>Defines how <a href="-code-block/">CodeBlock</a>s are rendered.  <br><br><br></td>
 </tr>
 <tr>
-<td><a name="com.zachklipp.richtext.ui/HeadingStyle///PointingToDeclaration/"></a><a href="./#%5Bcom.zachklipp.richtext.ui%2FHeadingStyle%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1765387090">HeadingStyle</a></td>
-<td><a name="com.zachklipp.richtext.ui/HeadingStyle///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>typealias <a href="./#%5Bcom.zachklipp.richtext.ui%2FHeadingStyle%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1765387090">HeadingStyle</a> = (level: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>, textStyle: TextStyle) -&gt; TextStyle  <br>More info  <br><br><br>Function that computes the TextStyle for the given header level, given the current TextStyle for this point in the composition. Note that the TextStyle passed into this function will be fully resolved. The returned style will then be <em>merged</em> with the passed-in text style, so any unspecified properties will be inherited.<br><br>  <br><br><br></td>
+<td><a name="com.zachklipp.richtext.ui/HeadingStyle///PointingToDeclaration/"></a><a href="./#%5Bcom.zachklipp.richtext.ui%2FHeadingStyle%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-760256023">HeadingStyle</a></td>
+<td><a name="com.zachklipp.richtext.ui/HeadingStyle///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>typealias <a href="./#%5Bcom.zachklipp.richtext.ui%2FHeadingStyle%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-760256023">HeadingStyle</a> = (level: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>, textStyle: TextStyle) -&gt; TextStyle  <br>More info  <br><br><br>Function that computes the TextStyle for the given header level, given the current TextStyle for this point in the composition. Note that the TextStyle passed into this function will be fully resolved. The returned style will then be <em>merged</em> with the passed-in text style, so any unspecified properties will be inherited.<br><br>  <br><br><br></td>
 </tr>
 <tr>
 <td><a name="com.zachklipp.richtext.ui/ListStyle///PointingToDeclaration/"></a><a href="-list-style/">ListStyle</a></td>
@@ -373,7 +372,7 @@
 </tr>
 <tr>
 <td><a name="com.zachklipp.richtext.ui/RichTextStyle///PointingToDeclaration/"></a><a href="-rich-text-style/">RichTextStyle</a></td>
-<td><a name="com.zachklipp.richtext.ui/RichTextStyle///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>@Immutable()  <br>  <br>data class <a href="-rich-text-style/">RichTextStyle</a>(<strong>paragraphSpacing</strong>: TextUnit?, <strong>headingStyle</strong>: <a href="./#%5Bcom.zachklipp.richtext.ui%2FHeadingStyle%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1765387090">HeadingStyle</a>?, <strong>listStyle</strong>: <a href="-list-style/">ListStyle</a>?, <strong>blockQuoteGutter</strong>: <a href="-block-quote-gutter/">BlockQuoteGutter</a>?, <strong>codeBlockStyle</strong>: <a href="-code-block-style/">CodeBlockStyle</a>?, <strong>tableStyle</strong>: <a href="-table-style/">TableStyle</a>?, <strong>stringStyle</strong>: <a href="../com.zachklipp.richtext.ui.string/-rich-text-string-style/">RichTextStringStyle</a>?)  <br>More info  <br>Configures all formatting attributes for drawing rich text.  <br><br><br></td>
+<td><a name="com.zachklipp.richtext.ui/RichTextStyle///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>@Immutable()  <br>  <br>data class <a href="-rich-text-style/">RichTextStyle</a>(<strong>paragraphSpacing</strong>: TextUnit?, <strong>headingStyle</strong>: <a href="./#%5Bcom.zachklipp.richtext.ui%2FHeadingStyle%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-760256023">HeadingStyle</a>?, <strong>listStyle</strong>: <a href="-list-style/">ListStyle</a>?, <strong>blockQuoteGutter</strong>: <a href="-block-quote-gutter/">BlockQuoteGutter</a>?, <strong>codeBlockStyle</strong>: <a href="-code-block-style/">CodeBlockStyle</a>?, <strong>tableStyle</strong>: <a href="-table-style/">TableStyle</a>?, <strong>stringStyle</strong>: <a href="../com.zachklipp.richtext.ui.string/-rich-text-string-style/">RichTextStringStyle</a>?)  <br>More info  <br>Configures all formatting attributes for drawing rich text.  <br><br><br></td>
 </tr>
 <tr>
 <td><a name="com.zachklipp.richtext.ui/RichTextTableCellScope///PointingToDeclaration/"></a><a href="-rich-text-table-cell-scope/">RichTextTableCellScope</a></td>
@@ -455,7 +454,7 @@
 <tbody>
 <tr>
 <td><a name="com.zachklipp.richtext.ui//currentRichTextStyle/com.zachklipp.richtext.ui.RichTextScope#/PointingToDeclaration/"></a><a href="current-rich-text-style/">currentRichTextStyle</a></td>
-<td><a name="com.zachklipp.richtext.ui//currentRichTextStyle/com.zachklipp.richtext.ui.RichTextScope#/PointingToDeclaration/"></a> [androidJvm] @Composable()  <br>  <br>val <a href="-rich-text-scope/">RichTextScope</a>.<a href="current-rich-text-style/">currentRichTextStyle</a>: <a href="-rich-text-style/">RichTextStyle</a>The current <a href="-rich-text-style/">RichTextStyle</a>.   <br></td>
+<td><a name="com.zachklipp.richtext.ui//currentRichTextStyle/com.zachklipp.richtext.ui.RichTextScope#/PointingToDeclaration/"></a> [androidJvm] val <a href="-rich-text-scope/">RichTextScope</a>.<a href="current-rich-text-style/">currentRichTextStyle</a>: <a href="-rich-text-style/">RichTextStyle</a>The current <a href="-rich-text-style/">RichTextStyle</a>.   <br></td>
 </tr>
 </tbody>
 </table>
